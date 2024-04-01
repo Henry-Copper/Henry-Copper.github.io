@@ -16,19 +16,19 @@
         width: 90vw;
       }
       h1 {
-          font-size: 9vw;
-        }
-    @media (min-width: 650px) {
+        font-size: 9vw;
+      }
+      @media (min-width: 650px) {
         body {
-        width: 600px;
+          width: 600px;
         }
         h1 {
-            font-size: 60px;
+          font-size: 60px;
         }
         q {
-            font-size: 18px;
+          font-size: 18px;
         }
-    }
+      }
       header {
         display: flex;
         flex-direction: column;
@@ -50,7 +50,7 @@
         flex-direction: column;
         align-items: center;
         white-space: nowrap;
-        margin:  10px 0;
+        margin: 10px 0;
       }
       .tutoring-title {
         font-weight: bold;
@@ -83,6 +83,9 @@
         text-justify: inter-character;
         margin-bottom: 0;
       }
+      img {
+        border: 1px solid black;
+      }
     </style>
   </head>
   <body>
@@ -98,7 +101,14 @@
         </figcaption>
       </figure>
       <figure>
-        <img src="images/img-saturated.jpeg" height="200" width="300" alt="Hanlie Roux smiling; she is white, with short dark hair and blue eyes." />
+        <img
+          src="images/img-exposed.jpeg"
+          height="200"
+          width="300"
+          style="white-space: pre"
+          alt="Hanlie Roux smiling; she is white, 
+    with short dark hair and blue eyes."
+        />
         <figcaption>Hanlie Roux - MCom Statistics, PGCE</figcaption>
       </figure>
     </header>
@@ -163,7 +173,11 @@
             </li>
             <li>
               WhatsApp text/call:
-              <a target="_blank" href="https://api.whatsapp.com/send?phone=27782552559">078 255 2559</a>
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=27782552559"
+                >078 255 2559</a
+              >
             </li>
           </ul>
         </address>
@@ -186,4 +200,3 @@
     <!-- format doc -->
   </body>
 </html>
-
