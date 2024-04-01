@@ -16,7 +16,13 @@
         width: 90vw;
       }
       h1 {
-        font-size: 8.5vw;
+        font-size: 8vw;
+      }
+      .M-logo {
+        border: none;
+        margin-left: -10px;
+        display: inline; 
+        position: absolute;
       }
       @media (min-width: 700px) {
         body {
@@ -27,6 +33,12 @@
         }
         q {
           font-size: 18px;
+        }
+      }
+      @media (max-width: 699px) {
+        .M-logo {
+          height: 5vw;
+          width: 5vw;
         }
       }
       header {
@@ -86,30 +98,29 @@
       img {
         border: 1px solid black;
       }
-      .M-logo {
-        border: none;
-        margin: 0;
-        margin-left: -10px;
+      sup {
+        margin-left: 10px;
       }
     </style>
   </head>
   <body>
     <header>
       <figure>
-        <h1 style="margin: 0">
-          Welcome to <br /><span class="tutoring-title"
+        <h1>
+          Welcome to <br  /><span class="tutoring-title"
             >Math'n'Stats Tutoring</span
-          >!<sup>
+          >!
+          <sup>
             <img
               class="M-logo"
-              height="50"
+              height=50"
               width="50"
               src="images/M.svg"
               alt="An black M inside a blue circle."
             />
           </sup>
         </h1>
-        <figcaption style="margin: 0">
+        <figcaption class="motto">
           <q><em>Start with what the student knows...</em></q>
         </figcaption>
       </figure>
